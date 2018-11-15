@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-content {
+  display: flex;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 100%;
+  max-width: 45em;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img .stuff {
+  display: inline-block;
+}
+
+.img {
+  padding: 1em;
+  width: 35%;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+.stuff {
+  padding: 1em;
+  width: 60%;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  margin: .5em 0 .75em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  border-width: 3px;
+  border-color: #333;
+  border-style: solid;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
